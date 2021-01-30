@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  font-family: "Roboto", sans-serif;
+  margin: 50px auto 0px auto;
+}
+
+caption {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 10px;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, #fff, #b8d8e4);
+}
+.header th {
+  border: 1px solid #000;
+  padding: 15px 15px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+.header__check-all {
+  width: 100px;
+}
+.header .check-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #797878;
+  color: #fff;
+  width: 140px;
+  padding: 0 10px 0 0;
+  cursor: pointer;
+}
+.header .check-all:hover {
+  background-color: #000;
+}
+.header .check-all .material-icons {
+  color: #9e9e9e;
+  font-size: 60px;
+  font-weight: bold;
+}
+.header .check-all span {
+  text-align: left;
+}
+
+.item td {
+  border: 1px solid #000;
+  padding: 15px;
+}
+.item__check-box {
+  display: flex;
+  align-items: flex-start;
+}
+.item__check-box .check-box {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #000;
+  float: left;
+  margin: 3px 10px 0px 0px;
+  cursor: pointer;
+  background-color: #fff;
+}
+.item:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+.item__event {
+  text-align: center;
+}
+.item__event .autorenew, .item__event .delete {
+  font-size: 40px;
+  font-weight: bold;
+  color: #9e9e9e;
+  cursor: pointer;
+  position: relative;
+}
+.item__event .autorenew:hover span, .item__event .delete:hover span {
+  display: block;
+}
+.item__event .autorenew span, .item__event .delete span {
+  display: none;
+  padding: 10px 20px;
+  position: absolute;
+  right: -35px;
+  bottom: -55px;
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  background-color: #000;
+  color: #fff;
+  z-index: 1;
+  border-radius: 5px;
+}
+.item__event .autorenew span::after, .item__event .delete span::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  transform: rotate(45deg);
+  top: -5px;
+  right: 45px;
+  z-index: -1;
+}
+
+.footer {
+  background-color: #4e4e4e;
+  color: #fff;
+}
+.footer td {
+  border: 1px solid #000;
+  padding: 15px;
+}
+
+.active {
+  background-color: #f1eaca !important;
+}
+.active .check-box::after {
+  content: "✔";
+  font-size: 34px;
+  line-height: 26px;
+  color: #9e9e9e;
+}
+
+/*# sourceMappingURL=style.css.map */
