@@ -9,97 +9,131 @@
 <body>
     <table>
         <caption>Личный кабинет</caption>
-        <tr class="header">
-            <th class="header__check-all">
-                <div class="check-all">
-                    <span class="material-icons">done</span>
-                    <span class="thr">Выбрать</br> все лоты</span>
-                </div>
-            </th>
-            <th>Название</th>
-            <th>Цена</th>
-            <th>Статус</th>
-            <th>Операция</th>
-        </tr>
+        <thead>
+            <tr class="header">
+                <th class="header__check-all">
+                    <div class="check-all">
+                        <span class="material-icons">done</span>
+                        <span class="thr">Выбрать</br> все лоты</span>
+                    </div>
+                </th>
+                <th>Название</th>
+                <th>Цена</th>
+                <th>Статус</th>
+                <th>Операция</th>
+            </tr>
+        </thead>
+       
 
-        <tr class="item">
-            <td>
-                <div class="item__check-box">
-                    <div class="check-box"></div>
-                    <span>31.01.2016,</br>22:01:00</span>
-                </div>
-            </td>
-            <td>Немецкая открытка (1896 год)</td>
-            <td>30 грн</td>
-            <td>Отправлено</td>
-            <td class="item__event">
-                <span class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></span>
-                <span class="material-icons delete">delete <span>Удалить лот</br>безвозвратно</span></span>
-            </td>
-        </tr>
+        <tbody>
+            <tr class="item">
+                <td>
+                    <div class="item__check-box">
+                        <div class="check-box"></div>
+                        <span>31.01.2016,</br>22:01:00</span>
+                    </div>
+                </td>
+                <td>Немецкая открытка (1896 год)</td>
+                <td>30 грн</td>
+                <td>Отправлено</td>
+                <td class="item__event">
+                    <a class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></a>
+                    <a class="material-icons delete" href="#deleteModal">delete <span>Удалить лот</br>безвозвратно</span></a>
+                </td>
+            </tr>
 
-        <tr class="item active">
-            <td>
-                <div class="item__check-box">
-                    <div class="check-box"></div>
-                    <span>31.01.2016,</br>22:01:00</span>
-                </div>
-            </td>
-            <td>Немецкая открытка (1896 год)</td>
-            <td>30 грн</td>
-            <td>Отправлено</td>
-            <td class="item__event">
-                <span class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></span>
-                <span class="material-icons delete">delete <span>Удалить лот</br>безвозвратно</span></span>
-            </td>
-        </tr>
+            <tr class="item">
+                <td>
+                    <div class="item__check-box">
+                        <div class="check-box"></div>
+                        <span>31.01.2016,</br>22:01:00</span>
+                    </div>
+                </td>
+                <td>Немецкая открытка (1896 год)</td>
+                <td>30 грн</td>
+                <td>Отправлено</td>
+                <td class="item__event">
+                    <a class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></a>
+                    <a class="material-icons delete" href="#deleteModal">delete <span>Удалить лот</br>безвозвратно</span></a>
+                </td>
+            </tr>
 
-        <tr class="item">
-            <td>
-                <div class="item__check-box">
-                    <div class="check-box"></div>
-                    <span>31.01.2016,</br>22:01:00</span>
-                </div>
-            </td>
-            <td>Немецкая открытка (1896 год)</td>
-            <td>30 грн</td>
-            <td>Отправлено</td>
-            <td class="item__event">
-                <span class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></span>
-                <span class="material-icons delete">delete <span>Удалить лот</br>безвозвратно</span></span>
-            </td>
-        </tr>
+            <tr class="item">
+                <td>
+                    <div class="item__check-box">
+                        <div class="check-box"></div>
+                        <span>31.01.2016,</br>22:01:00</span>
+                    </div>
+                </td>
+                <td>Немецкая открытка (1896 год)</td>
+                <td>30 грн</td>
+                <td>Отправлено</td>
+                <td class="item__event">
+                    <a class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></a>
+                    <a class="material-icons delete" href="#deleteModal">delete <span>Удалить лот</br>безвозвратно</span></a>
+                </td>
+            </tr>
 
-        <tr class="item">
-            <td>
-                <div class="item__check-box">
-                    <div class="check-box"></div>
-                    <span>31.01.2016,</br>22:01:00</span>
-                </div>
-            </td>
-            <td>Немецкая открытка (1896 год)</td>
-            <td>30 грн</td>
-            <td>Отправлено</td>
-            <td class="item__event">
-                <span class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></span>
-                <span class="material-icons delete">delete <span>Удалить лот</br>безвозвратно</span></span>
-            </td>
-        </tr>
+            <tr class="item">
+                <td>
+                    <div class="item__check-box">
+                        <div class="check-box"></div>
+                        <span>31.01.2016,</br>22:01:00</span>
+                    </div>
+                </td>
+                <td>Немецкая открытка (1896 год)</td>
+                <td>30 грн</td>
+                <td>Отправлено</td>
+                <td class="item__event">
+                    <a class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></a>
+                    <a class="material-icons delete" href="#deleteModal">delete <span>Удалить лот</br>безвозвратно</span></a>
+                </td>
+            </tr>
 
+            <tr class="item">
+                <td>
+                    <div class="item__check-box">
+                        <div class="check-box"></div>
+                        <span>31.01.2016,</br>22:01:00</span>
+                    </div>
+                </td>
+                <td>Немецкая открытка (1896 год)</td>
+                <td>30 грн</td>
+                <td>Отправлено</td>
+                <td class="item__event">
+                    <a class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></a>
+                    <a class="material-icons delete" href="#deleteModal">delete <span>Удалить лот</br>безвозвратно</span></a>
+                </td>
+            </tr>
+        </tbody>
         
-
+    <tfoot>
         <tr class="footer">
-            <td colspan="2">
-                Выбрано 2 лота
+            <td colspan="2" class="countLots">
+                
             </td>
             <td colspan="2">
                 Операции над обьектами
             </td>
             <td class="item__event">
-                <span class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></span>
-                <span class="material-icons delete">delete <span>Удалить лот</br>безвозвратно</span></span>
+                <a class="material-icons autorenew">autorenew <span>Перевыставить</br>лот</span></a>
+                <a class="material-icons deleteAll" href="#deleteModal">delete <span>Удалить лот</br>безвозвратно</span></a>
             </td>
         </tr>
+    </tfoot> 
+       
+           
+          
     </table>
+
+    <div id="deleteModal">
+        <div id="okno">
+          <p class="countDelete"></p>
+          <a href="#" class="del">Удалить</a>
+          <a href="#" class="closeBtn close">Отменить</a>
+          <a href="#" class="closeIcon"><span class="material-icons close">disabled_by_default</span></a>
+        </div>
+      </div>
+    <script src="script.js"></script>
 </body>
 </html>
